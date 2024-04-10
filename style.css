@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: rgb(222, 222, 222);
+}
+
+.second nav a {
+
+    border: 2px solid transparent;
+}
+
+.second nav a:hover {
+    border: 2px solid #fff;
+}
+
+.st {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.first nav {
+
+    display: flex;
+    text-align: center;
+    height: 70px;
+    width: 100vw;
+    background-color: #161626;
+    /* position: relative; */
+
+}
+
+.first nav img {
+    padding: 14px 14px;
+    width: 130px;
+    height: auto;
+}
+
+.first nav a span:first-child {
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 23px;
+}
+
+.first a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+
+.first a span:nth-child(3) {
+    position: absolute;
+    top: 36px;
+    left: 182px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.first nav svg {
+    fill: white;
+    position: absolute;
+    top: 32px;
+    left: 160px;
+}
+
+.first nav input {
+
+
+    padding: 4px;
+    margin-top: 12px;
+    margin-left: 233px;
+    height: 41px;
+    width: 700px;
+}
+
+.first .sHalf a span {
+    font-weight: 600;
+    position: absolute;
+    top: 24px;
+    right: 360px;
+    font-size: 16px;
+
+}
+
+.first .sHalf a img {
+
+    padding-top: 28px;
+    padding-left: 10px;
+    height: 14px;
+    width: auto;
+    position: absolute;
+    top: 2px;
+}
+
+.first .other a:nth-child(1) span:nth-child(1) {
+    position: absolute;
+    right: 282px;
+    font-size: 10px;
+}
+
+.first .other a:nth-child(1) span:nth-child(2) {
+    font-weight: 600;
+    position: absolute;
+    font-size: 13px;
+    top: 31px;
+    right: 230px;
+}
+
+.first .other a:nth-child(2) span:nth-child(1) {
+    position: absolute;
+    right: 166px;
+    font-size: 10px;
+}
+
+.first .other a:nth-child(2) span:nth-child(2) {
+    font-weight: 600;
+    position: absolute;
+    font-size: 13px;
+    top: 31px;
+    right: 149px;
+}
+
+.first .other a:nth-child(3) img {
+    position: absolute;
+    top: 3px;
+    right: 30px;
+    height: 43px;
+    width: auto;
+}
+
+
+
+.second nav {
+    position: relative;
+    top: 70px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 47px;
+    background-color: #232f3e;
+    /* position: relative; */
+
+}
+
+.second nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    margin: 10px;
+}
+
+.second nav img {
+    height: 22px;
+    width: auto;
+}
+
+.bb {
+    height: 1400px;
+    width: 99vw;
+    border: none;
+    margin: auto;
+}
+
+.main-box {
+    margin: auto;
+    width: 98vw;
+    height: auto;
+    border: none;
+    overflow: hidden;
+
+}
+
+.main-img img {
+    position: relative;
+    top: 70px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top right;
+}
+
+.boxes .box {
+    background-color: white;
+}
+sww
+.boxes .box1 {
+    height: 3393px;
+    width: 327px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 407px;
+    left: 23px;
+}
+
+.box .text {
+    display: flex;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.box img {
+    width: 123px;
+    height: auto;
+}
+
+.box a:nth-child(2) img {
+    position: absolute;
+    top: 87px;
+    left: 12px;
+}
+
+.box a:nth-child(3) img {
+    position: absolute;
+    top: 87px;
+    left: 170px;
+}
+
+.box a:nth-child(4) img {
+    position: absolute;
+    top: 215px;
+    left: 12px;
+}
+
+.box a:nth-child(5) img {
+    position: absolute;
+    top: 215px;
+    left: 170px;
+}
+
+.box a span {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.box a:nth-child(2) span {
+    position: absolute;
+    top: 164px;
+    left: 10px;
+}
+
+.box a:nth-child(3) span {
+    position: absolute;
+    top: 166px;
+    left: 170px;
+}
+
+.box a:nth-child(4) span {
+    position: absolute;
+    top: 294px;
+    left: 15px;
+}
+
+.box a:nth-child(5) span {
+    position: absolute;
+    top: 293px;
+    left: 169px;
+}
+
+.box a:nth-child(6) {
+    position: absolute;
+    font-size: 12px;
+    top: 355px;
+    left: 15px;
+    text-decoration: none;
+    color: blue;
+}
+
+.boxes .box2 {
+    height: 393px;
+    width: 327px;
+    border: 2px solid black;
+    position: absolute;
+    top: 407px;
+    left: 400px;
+}
+
+.boxes .box3 {
+    height: 393px;
+    width: 327px;
+    border: 2px solid black;
+    position: absolute;
+    top: 407px;
+    right: 413px;
+}
+
+.boxes .box4 {
+    height: 393px;
+    width: 327px;
+    border: 2px solid black;
+    position: absolute;
+    top: 407px;
+    right: 23px;
+}
+
+.boxes .box5 {
+    height: 393px;
+    width: 327px;
+    border: 2px solid black;
+    position: absolute;
+    top: 840px;
+    left: 23px;
+}
+
+.boxes .box6 {
+    height: 393px;
+    width: 327px;
+    border: 2px solid black;
+    position: absolute;
+    top: 840px;
+    left: 400px;
+}
+
+.boxes .box7 {
+    height: 393px;
+    width: 327px;
+    border: 2px solid black;
+    position: absolute;
+    top: 840px;
+    right: 413px;
+}
+
+.boxes .box8 {
+    height: 393px;
+    width: 327px;
+    border: 2px solid black;
+    position: absolute;
+    top: 840px;
+    right: 23px;
+}
+
+.button button {
+    color: black;
+    height: 24px;
+    width: 203px;
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: yellow;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    top: 1400px;
+    left: 658px;
+    text-shadow: 0 1px 0 #ffe093;
+}
+
+.button .t1 {
+    position: absolute;
+    color: black;
+    top: 1367px;
+    left: 643px;
+    font-size: 13px;
+
+}
+
+.button .t2 {
+    position: absolute;
+    color: black;
+    top: 1432px;
+    left: 678px;
+    font-size: 12px;
+}
+
+.button .t2 a {
+    text-decoration: none;
+    color: blue;
+}
+
+.button .t2 a:hover {
+    color: brown;
+}
+
+.division {
+    height: 9px;
+    width: 100vw;
+    color: #161626;
+}
+
+.f1 {
+    height: 50px;
+    width: 100vw;
+    background-color: #37414e;
+}
+
+.f1 span {
+    position: absolute;
+    left: 710px;
+    top: 1470px;
+    color: white;
+
+}
+
+.f2 {
+    height: 475px;
+    width: 100vw;
+    background-color: #232F3E;
+
+
+}
+
+.f2 .mid-f {
+    margin: 23px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-decoration: none;
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.mid-f a {
+    text-decoration: none;
+    color: white;
+}
+
+.a1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+    margin: 83px -2px;
+
+}
+
+.f2 .a {
+    position: absolute;
+    left: 225px;
+    top: 1548px;
+    color: white;
+    font-weight: 600;
+}
+
+.f2 .b {
+    position: absolute;
+    left: 494px;
+    top: 1548px;
+    color: white;
+    font-weight: 600;
+}
+
+.f2 .c {
+    position: absolute;
+    left: 765px;
+    top: 1548px;
+    color: white;
+    font-weight: 600;
+}
+
+.f2 .d {
+    position: absolute;
+    right: 363px;
+    top: 1548px;
+    color: white;
+    font-weight: 600;
+}
+
+.f2 .image img {
+    position: relative;
+    bottom: 23px;
+    left: 444px;
+    width: 97px;
+    height: auto;
+}
+
+.f2 .but button {
+    height: 31px;
+    width: 91px;
+    position: relative;
+    top: -12px;
+    left: 301px;
+}
+
+.f2 .s-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-width: 30vw;
+    margin: 28px -233px;
+    gap: 20px;
+    font-size: 10px;
+}
+
+
+.f2 .s-text a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.f3 {
+    height: 230px;
+    width: 100vw;
+    background-color: #161626;
+}
+
